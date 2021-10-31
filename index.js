@@ -137,6 +137,7 @@ async function run(){
             const result = await blogCollection.find({}).toArray();
             res.send(result)
         })
+        
 
     }   
     finally{
